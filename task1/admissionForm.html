@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Admission Form</title>
+        <link rel="stylesheet" type="text/css" href="admissionForm.css">
+    </head>
+    <body><center>
+        <h1>AISSMS IOIT, PUNE</h1>
+        <h2>ADMISSION FORM</h2><br><br>
+        <form>
+            <fieldset>
+                <legend>
+                    Student Details
+                </legend>
+            <p>
+            NAME OF STUDENT:   <input type="text" name="male"><br><br>
+            FATHER'S NAME:     <input type="text" name="Fname"><br><br>
+            MOTHER'S NAME:     <input type="text" name="Mname"><br><br>
+            CLASS:    <input type="number" id="class" value="class" min="5" max="12"><br><br>
+            DATE OF BIRTH: <input type="date" id="DOB" value="DOB"><br><br>
+            GENDER: <input type="radio" id="gender" name="gender" value="male"> male <input type="radio" id="gender" name="gender" value="female"> Female<br><br>
+            EMAIL ID: <input type="email" id="email" name="email"><br><br>
+            MOBILE NO.: <input type="tel" name="telephone" pattern="[0-9]" required><br><br>
+            ADDRESS: <textarea rows="3" cols="22"></textarea><br><br>
+            DOCUMENTS ATTACHED: <br>
+                                <select id="docs" name="docs">
+                                 <option value="adhar card"> Adhar card<br></option>
+                                <option value="fees"> Fee Receipt <br></option>
+                                <option type="checkbox" id="result" value="result"> Performance Certificate<br></option>
+                                <option type="checkbox" id="birth" value="birth">Birth Certificate<br><br></option>
+                                 </select><br><br><br>
+            <input type="button" id="submit" value="submit" onclick="alert('Your form has been submited')"></p>
+            </fieldset>
+        </form>
+     </center></body>
+
+</html>
