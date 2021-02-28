@@ -1,0 +1,39 @@
+<html>
+<head><title>Bonafide</title>
+	<link rel="stylesheet" href="bonafide_dp.css">
+    
+</head>
+<body>
+	<form>   <br>
+	    <h1>Bonafide Certificate</h1>
+        <br>
+        <p>This is to certify that
+            <select name="title" id="title" required>
+                <option value="Mr">Mr</option>
+                <option value="Ms">Ms</option>
+            </select>
+            <input type="text" name="fullName" placeholder="Full Name" id="fullName" required />  having Roll No.
+            <input type="number" min="1" max="100" id="rollNo" required /> of year
+            <select name="year" id="year" required>
+                <option value="FE">FE</option>
+                <option value="SE">SE</option>
+                <option value="TE">TE</option>
+                <option value="BE">BE</option>
+            </select>  and branch
+            <input type="text" name="branch" id="branch" required /> for academic year from:
+            <input type="number" name="fromacademicYear" min="1950" max="2999" id="fromacademicYear" required /> to:
+            <input type="number" name="toacademicYear" min="1950" max="2999" id="toacademicYear" required />
+            is a bonafide student of
+            <input type="college" name="college" placeholder="College Name" id="college" required />. This certificate is issued for the purpose of
+            <input type="text" name="reason" id="purpose" required />.
+        </p>
+        <br>
+        <label for="date">Date:</label>
+            <input type="date" name="date" id="date" required />  <br><br>
+        <label for="place">Place:</label>
+            <input type="text" name="place" id="place" required />
+
+        <center><button type="submit" class="submit" onsubmit="alert('Form Successfully Submitted')"> Submit</button> </center>
+    </form>
+</body>
+</html>
