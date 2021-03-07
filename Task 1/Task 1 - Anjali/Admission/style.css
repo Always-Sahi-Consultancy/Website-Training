@@ -1,0 +1,19 @@
+h2{
+    text-decoration: underline;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+p{
+    text-align: center;
+}
+body{
+    margin-left: 15%;
+    border: 10px black double;
+    padding: 20px;
+    height: auto;
+    width: 60%;
+}
+legend{
+    width: auto;
+    height: auto;
+    color: rgb(134, 126, 126);
+}
