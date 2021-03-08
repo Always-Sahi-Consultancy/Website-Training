@@ -1,0 +1,47 @@
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+#page{
+    width:50%;
+    height:700px;
+    border:2px solid black;
+    padding:20px;
+    margin:20px;
+}
+#date{
+    float:right;
+    font-size: 18px;
+}
+#address{
+    /* float:left; */
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    left:-78px;
+    top:30px;
+    row-gap: 10px;
+    padding:10px;
+    line-height:1.8;
+}
+#subject{
+    position:relative;
+    
+    font-weight: bold;
+    position:relative;
+}
+#content{
+    position:relative;
+    top:10px;
+    line-height:2;
+    text-align: justify;
+}
+
+#submission{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+}
+

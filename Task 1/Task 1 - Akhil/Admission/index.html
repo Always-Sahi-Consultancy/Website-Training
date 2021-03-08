@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Admission form</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <form>
+        <h1>Institution Name</h1>
+        <h2>Admission Form</h2>
+        <table>
+            <tr>
+                <td>
+                    <label for="first">First Name: </label></td>
+        <td><input name="first" type="text" required></td>
+        </tr>
+        <tr>
+            <td>
+                <label for="last">Last Name: </label></td>
+            <td>
+                <input name="last" type="text" required></td>
+        </tr>
+        <tr>
+            <td>
+                <lable for="dob">Date of Birth: </lable></td>
+            <td>
+                <input name="dob" type="date" required></td>
+        </tr>
+        <tr>
+            <td>
+                <label for="caste">Caste: </label></td>
+            <td>
+                <input name="caste" value="general" type="radio">General
+                <input name="caste" value="sc" type="radio">SC
+                <input name="caste" value="obc" type="radio">OBC</td>
+        </tr>
+        <tr>
+            <td>
+                <label for="minority">Do you belong to any minority session: </label>
+            </td>
+            <td>    
+                <input type="radio" value="Yes"> Yes <input type="radio" value="no"> No</td>
+        </tr>
+        <tr>
+            <td>
+                <label for="nationality">Nationality: </label></td>
+            <td><input type="radio" value="Indian">Indian
+                <input type="radio" value="Others">Others</td>
+        </tr>
+        <tr>
+            <td>
+                <label for="education">Education: </label></td>
+            <td>
+                <ul>
+                <li><input type="checkbox" value="HSC">HSC</li>
+                <li><input type="checkbox" value="SSC">SSC</li>
+                <li><input type="checkbox" value="Degree">Degree</li>
+                <li><input type="checkbox" value="PG">PG</li>
+                <li><input type="checkbox" value="PhD">PhD</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="gender">Gender: </label>
+            </td>
+            <td>
+                <input type="radio" value="male" name="gender">Male
+                <input type="radio" value="female" name="gender">Female
+                <input type="radio" value="others" name="gender">Others
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="fathers_name">Father's Name: </label>
+            </td>
+            <td>
+                <input type="text" name="fathers_name" required>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="mothers_name">Mother's Name: </label>
+            </td>
+            <td>
+                <input type="text" name="mothers_name" required>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="a_course">Course applying for: </label>
+            </td>
+            <td>
+                <input type="radio" value="a_Degree" name="a_course">Degree
+                <input type="radio" value="a_PG" name="a_course">PG
+                <input type="radio" value="a_PhD" name="a_course">PhD
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="pic">Picture: </label>
+            </td>
+            <td>
+                <input type="file" value="pic" name="pic" required>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="signature">Signature: </label>
+            </td>
+            <td>
+                <input type="file" value="signature" name="signature" required>
+            </td>
+        </tr>
+    </table>
+    <br><br>
+    <button type="submit" value="submit">Submit</button>
+    <button type="reset" value="reset">Reset</button>
+    </form>
+</body>
+</html>
