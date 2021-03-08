@@ -1,0 +1,85 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <title>Admission Form</title>
+        <link rel="stylesheet" href="adm_form.css">
+    </head>
+    <body>
+        <form action="adm.php">
+            <h1>Admission Form</h1><br>
+
+            <input type="date" class="right" name="applyDate" id="applyDate" required />
+            <label class="right" for="applyDate"><b>Date:</b></label>    <br><br>
+
+            <input type="number" class="right"  min="1" max="1000" name="form_no" id="form_no" required />
+            <label class="right" for="form_no"><b>Form No:</b></label>  <br><br>
+
+            <label for="firstName"><b>First Name:</b></label>
+                <input type="text" name="firstName" id="firstName" required /><br><br>
+
+            <label for="middleName"><b>Middle Name:</b></label>
+                <input type="text" name="middleName" id="middleName" required /><br><br>
+
+            <label for="lastName"><b>Last Name:</b></label>
+                <input type="text" name="lastName" id="lastName" required /><br><br>
+
+            <label for="fathersName"><b>Fathers Name:</b></label>
+                <input type="text" name="fathersName" id="fathersName" required /><br><br>
+
+            <label for="motherName"><b>Mothers Name:</b></label>
+                <input type="text" name="mothersName" id="mothersName" required /><br><br>
+
+            <label for="date"><b>Date of Birth:</b></label>
+                <input type="date" name="dob" id="dob" required />  <br><br>
+
+            <label for="Gender"><b>Gender:</b></label>
+                <input type="radio" id="gender" name="gender" value="male" />Male
+                <input type="radio" id="gender" name="gender" value="female" />Female
+                <input type="radio" id="gender" name="gender" value="other" />Other    <br><br>
+
+             <label for="email"><b>Email:</b></label>
+                <input type="email" name="email" pattern="[a-zA-Z0-9._%+-]+@[a-z0-9]+\.[a-z]{2,}$" id="email" required />  <br><br>
+
+             <label for="number"><b>Phone Number:</b></label>
+                <input type="tel" name="number" pattern="[0-9]{10}" id="number" required />  <br><br>
+
+             <label for="Category"><b>Category:</b></label>
+                <input type="radio" id="gender" name="gender" value="general" />General
+                <input type="radio" id="gender" name="gender" value="sc" />SC
+                <input type="radio" id="gender" name="gender" value="st" />ST
+                <input type="radio" id="gender" name="gender" value="obc" />OBC
+                <input type="radio" id="gender" name="gender" value="other" />Other
+                <br><br>
+
+            <label for="nationality"><b>Nationality:</b></label>
+                <input type="text" name="nationality" id="nationality" required />  <br><br>
+
+            <label for="address"><b>Address:</b></label>
+                <textarea name="address" id="address" rows="3"></textarea> <br><br>
+
+            <label for="state"><b>State:</b></label>
+                <input type="text" name="state" id="state" required />
+            <label for="pincode"><b>PinCode:</b></label>
+                <input type="number" name="pincode" min="100000" max="999999" id="pincode" required />  <br><br>
+
+            <label for="previousSchool"><b>Previous School:</b></label>
+                <input type="text" name="previousSchool" id="previousSchool" required />  <br><br>
+
+            <label for="previousSchoolScore"><b>Previous Class Percentage:</b></label>
+                <input type="number" name="previousSchoolScore" min="1" max="100" id="previousSchoolScore" required />  <br><br>
+
+            <label for="class"><b>Class seeking admission into:</b></label>
+                <input type="number" name="class" id="class" min="1" max="12" required />  <br><br>
+
+            <label for="image"><b>Choose Image to be uploaded:</b></label>
+                <input type="file" name="image" required/>      <br><br>
+
+            <label for="tc"><b>Upload Transfer Certificate:</b></label>
+                <input type="file" name="tc" required />      <br><br> <br>
+
+            <center><button type="submit" class="submit" onsubmit="alert('Form Successfully Submitted')"> Submit</button> </center>
+
+
+        </form>
+    </body>
+</html>

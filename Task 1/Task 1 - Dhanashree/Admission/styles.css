@@ -1,0 +1,42 @@
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+.right{
+    float: right;
+}
+
+body{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+form{
+    background-color: #eeeeee;
+    border: 5px solid black;
+    padding: 30px;
+}
+input{
+    background-color: #eeeeee;
+    border-bottom: 1px dashed;
+    border-top:none;
+    border-left:none;
+    border-right:none;
+}
+textarea{
+    background-color: #eeeeee;
+    border: 1px solid black;
+    border-radius:2px;
+    width: 50%;
+}
+.submit{
+    border: none;
+    font-size: 22px;
+    background-color: rgba(18, 18, 18, 1.0) ;
+    color: white;
+    padding: 7px;
+    border-radius: 10px;
+}
+.submit:hover{
+    background-color:white ;
+    color:  rgba(18, 18, 18, 1.0);
+}
