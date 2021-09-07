@@ -1,0 +1,11 @@
+Water is very important to the human body. Every one of your cells, organs and tissues use water to help with temperature regulation, keeping hydrated and maintaining bodily functions. In addition, water acts as a lubricant and cushions your joints. Drinking water is great for your overall health. According to the CDC everyone should drink water daily.
+
+Water and Your Heart Health: Drinking water is very good for your heart. Your heart is working continually to pump 2,000 gallons of blood throughout your body a day. By drinking water and keeping hydrated, you are helping your heart do its job. Your heart Is able to pump blood more easily when hydrated (consuming more water than you are losing) and allows the rest of the muscles in your body to work much better.
+
+FUN FACT:  IF YOU ARE THIRSTY, YOU ARE ALREADY DEHYDRATED.
+
+Water and Weight Loss: Water naturally has zero calories, therefore, substituting water for soda or juice can reduce your caloric intake. Switching out one 20 oz. sugary beverage for water reduces your caloric intake by 240 calories.
+
+There are no recommended standards for how much plain water one should drink daily because intake varies based on age, sex, weight, and many other factors. It is recommended for an adult male over the age of 19 to consume 3.7 liters of water per day. An adult non-lactating female over the age of 19 is recommended to consume 2.7 liters of water per day. Females that are pregnant or lactating are recommended to consume 3-3.8 liters of water per day. These values include the water you get from food and other (non-water) beverages throughout your day.
+
+Hydration: Drinking water keeps you from becoming dehydrated; a condition that can cause confusion, mood change, overheating, constipation, and other symptoms. The CDC (Center for Disease Control) recommends, to decrease your risk of becoming dehydrated, that you have a drink with every meal, and drink whenever you are thirsty. An easy way to determine if you have had enough water is to check your urine. If it’s a darker yellow, you need more water. If it’s a pale yellow or clear you’re doing great.
