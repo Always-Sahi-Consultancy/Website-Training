@@ -9,6 +9,12 @@ The RoadMap:
 - Introduction to Programming 
 - Javascript
 
+## Day 6
+- [x] Types of List - Theory and Implementation
+- [x] Iframe - Theory and Implementation
+- [x] Img tag - Theory and Implementation
+- [x] Picture tag - Theory and Implementation
+
 ## Day 5
 - [x] Html Formatting - Implementation
 - [x] Color Formats - Implementation
