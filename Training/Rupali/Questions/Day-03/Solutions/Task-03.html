@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image and Picture</title>
+</head>
+<body style="background:url('Image/benny-rotlevy-I2EpqyPym78-unsplash.jpg'); background-repeat:no-repeat; background-size:100%">
+    <h1 style="color:white" align="center">Hello</h1>
+    <br><br>
+    <div>
+        <div><h2 style="color:white" align="left">I'm Rupali</h2></div>
+        <div><img src="Image/Rupali.jpg" alt="My Image" style="height:auto; width:30vw"/></div>
+    </div>
+    <h3>I live in Pune</h3>
+    <picture>
+        <source media="(min-width:900px)" srcset="Image/pune1.jpg">
+        <source media="(min-width:600px)" srcset="Image/pune2.jpg">
+        <img src="Image/pune3.jpg" alt="Pune-1">
+    </picture>
+    <img src="Image/pune2.jpg" usemap="#Places">
+    <map name="Places">
+        <area shape="circle" coords="220,200,30" alt="In Pune" href="This is pune.html">
+        <area shape="rect" coords="0,0,900,400" alt="Not in Pune" href="Non pune map.html">
+    </map>
+</body>
+</html>
