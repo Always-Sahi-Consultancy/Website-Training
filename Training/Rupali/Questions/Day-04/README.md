@@ -11,3 +11,5 @@ The task for day 4 are:
 
 3. Design a page to show how to use class and id in an normal html page.
    Sample image : **[Task3 1](TaskImage/Task3-1.png)**,**[Task3 2](TaskImage/Task3-2.png)**, and **[Task3 3](TaskImage/Task3-3.png)**.
+
+The solutions shall be provided by 12:00 AM of 18 Sept 2021.
