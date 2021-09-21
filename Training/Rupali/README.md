@@ -9,6 +9,11 @@ The RoadMap:
 - Introduction to Programming 
 - Javascript
 
+## Day 7
+- [x] Anchor Tag
+- [x] Paths in html
+- [x] Table Tag
+
 ## Day 6
 - [x] Types of List - Theory and Implementation
 - [x] Iframe - Theory and Implementation
