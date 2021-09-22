@@ -1,0 +1,12 @@
+h1{
+    color:blanchedalmond;
+    font-family:cursive;
+    font-size:300%;
+    border: 2px solid black; 
+}
+
+h2{
+    background:cornsilk;
+    padding:10px 20px;
+    margin:10%;
+}
