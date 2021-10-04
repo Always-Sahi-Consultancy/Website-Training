@@ -8,6 +8,6 @@ Greetings
 
 3. Task 3 is to design a simple XHTML page. No need to design any material inside the body.The syntax of this task should be with respect to XHTML conditions.
 
-The solutions shalll be uploaded by 18:00 28, September 2021.
+The solutions shalll be uploaded by 18:00 05, October 2021.
 
 Thank you.
