@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Forms</title>
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+    <form action="" method="GET">
+        <h1>Google Form</h1>
+        <div class="container">
+            <label for="name">Name</label>
+            <input type="text" placeholder="Full Name" id="name" name="name" required>
+        </div>
+        <div class="container">
+            <label for="dob">Date of Birth</label>
+            <input type="date" name="dob" id="dob" required>    
+        </div>
+        <div class="container">
+            <label for="gender">Gender</label>
+            <input type="radio" value="male" name="gender" required>
+            <label for="gender">Male</label>
+            <input type="radio" value="female" name="gender" required>
+            <label for="gender">Female</label>
+        </div>
+        <div class="container">
+            <label for="age">Age</label>
+            <input type="number" placeholder="Age" name="age" max="125" min="18" required>
+        </div>
+       
+        <div class="container">
+            <label for="married">Married</label>
+            <input type="checkbox" value="yes">
+        </div>
+        
+        <div class="container">
+            <label for="email">Email ID</label>
+            <input type="email" name="email" required>
+        </div>
+        <div class="container">
+            <label for="mobile">Mobile No.</label>
+            <input type="tel" maxlength="10">
+        </div>
+        <div class="container">
+            <label for="Cast">Cast</label>
+            <select id="cast" name="cast">
+                <option value="general">General</option>
+                <option value="sc/st">SC/ST</option>
+                <option value="obc">OBC</option>
+                <option value="others">Others</option>
+            </select>
+        <p>If others selcted, please specify the details.</p>
+        <textarea rows=4 cols=20 placeholder="Enter the details"></textarea>
+        <br>
+        <input type="file">
+        </div>
+        <div class="container">
+            <input type="checkbox" name="nationality" checked required>
+            <label for="email">Indian Citizen.</label>
+        </div>
+        <div class="container">
+            <input type="checkbox" name="consent" checked required>
+            <label for="email">I agree that the information provided is all correct.</label>
+        </div>
+        <div class="container submit">
+            <input type="submit" value="Submit" class="buttons">
+            <input type="reset" value="Reset" class="buttons">
+        </div>
+    </form>
+    </body>
+</html>
