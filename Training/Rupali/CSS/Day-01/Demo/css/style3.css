@@ -1,0 +1,33 @@
+/* Combinators */
+/* 
+    1. Descendants 
+*/
+
+ul li{
+    background-color: darkblue;
+    margin:1px;
+}
+
+/* 
+    2. Child
+*/
+
+.second > .seconds1 {
+    background:darkcyan;
+}
+
+/*
+ 3. Adjacent Sibling Selector 
+*/
+
+.seconds1 + .seconds{
+    font-style: italic;
+} 
+
+/* 
+    4.General Sibiling Selector
+*/
+
+.seconds1 ~ .seconds{
+    font-weight: bolder;
+}

@@ -1,0 +1,24 @@
+h1 { /* Selector */
+    color:red; /* Property : value */
+    font-size: large;
+}
+
+/* 2 id selector */
+#object-1{
+    color:aquamarine;
+}
+
+/* 3 Class selector */
+.class-1{
+    font-style: italic;
+}
+
+/* 4 Universal Selector */
+*{
+    padding:10px;
+}
+
+/* 5 Group Selectors */
+h1, p, h2 {
+    font-size: medium;
+}

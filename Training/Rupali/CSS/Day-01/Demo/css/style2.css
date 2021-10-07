@@ -1,0 +1,36 @@
+.todo{
+    background:blue;
+    padding:10px;
+    width:fit-content;
+}
+
+.elements{
+    color:green;
+    background: blueviolet;
+    margin:20px;
+    font-size: larger;
+}
+
+/* :hover,  active checked disabled first-child */
+
+.elements:hover{
+    color:cornflowerblue;
+    background: crimson;
+    padding:2px;
+}
+
+.elements:first-child{
+    font-size: medium;
+}
+
+.elements:nth-child(even){
+    color:darkblue;
+}
+
+#task1::first-letter{
+    color:red;
+}
+
+#desc::first-letter{
+    color:blue;
+}
