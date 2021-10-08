@@ -1,0 +1,31 @@
+form{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 0%;
+    text-align: center; 
+    align-items: center;
+    background-color: azure;
+    border-radius: 10px;
+    min-height: 100vh;
+}
+
+.container{
+    margin: 10px 0%;
+    font-size: 20px;
+    font-style: italic;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 0 2px;
+}
+
+
+body{
+    background-color: blue;
+}
+
+
+.buttons{
+    border-radius:10%;
+    width:10vw;
+    height:auto;
+    background-color: gray;
+}
