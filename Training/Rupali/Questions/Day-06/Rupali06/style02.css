@@ -1,0 +1,24 @@
+h1{
+    text-align: center;
+}
+
+
+body{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+table{
+    width:40%;
+    border:2px solid black
+}
+
+th{
+    background:rgb(200, 200, 200);
+
+}
+
+tr:nth-child(even){
+    background:#757575;
+
+}
