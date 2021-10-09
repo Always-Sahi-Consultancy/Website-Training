@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Google Form</title>  
+        <link href="style1.css" rel="stylesheet">
+    </head>
+    <body>
+        <form action="" method="GET">
+        <div class="container">
+            <h1>Google forms</h1>
+            <lable for="name" >NAME :</lable>
+            <input type="text" placeholder="Full name"  name= "name" id="name" required>
+        </div>
+        
+        <div class="container">
+            <lable for="dob">Date Of Birth:</lable>
+            <input type="date" id="dob" name="dob" required>
+        </div>
+
+        <div class="container">
+            <lable for="gender">Gender:</lable>
+            <input type="radio" name="gender" value="male" required>
+            <lable for="gender">Male</lable>
+            <input type="radio" name="gender" value="female" required>
+            <lable for="gender">Female</lable>
+        </div>
+
+        <div class="container">
+            <lable for="age">Age:</lable>
+            <input type="number" id="age" max="125" min="18" required>
+        </div>
+
+        <div class="container">
+            <lable for="married">Married:</lable>
+            <input type="checkbox" value="yes">
+        </div>
+
+        <div class="container">
+            <lable for="email">Email:</lable>
+            <input type="email" naame="email" required>
+        </div>
+
+        <div class="container">
+            <lable for="mobile">Mobile:</lable>
+            <input type="tel" maxlenght="10">
+        </div>
+
+        <div class="container">
+            <lable for="cast">Cast:</lable>
+            <select id="cast" name="cast">
+                <option value="general">General</option>
+                <option value="sc/st">Sc/St</option> 
+                <option value="obc">Obc</option>
+                <option value="other">Other</option>
+            </select>
+        </div>
+        <p>If other selected, please specify the  detail</p>
+        <textarea rows="4" cols="20" placeholder="Enter the details">Enter the details</textarea>
+        <br>
+
+        <input type="file">
+
+        <div class="container">
+            <lable for="email">Indian Citizen</lable>
+            <input type="checkbox" name="nationality" checked required>
+        </div>
+        
+        <div class="container">
+            <lable for="email">I agree that the above information is correct.</lable>
+            <input type="checkbox" name="consent" checked required>
+        </div> 
+
+        <div class="container submit">
+            <input type="submit" value="submit" class="buttons">
+            <input type="reset"  value="reset" class="buttons">
+        </div>
+    </form>
+    </body>
+</html>
