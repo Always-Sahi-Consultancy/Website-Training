@@ -1,0 +1,57 @@
+body{
+    margin-left:10%;
+    margin-right:10%;
+}
+
+.collection{
+    border-radius: 10px;
+    background-color: #f4f4f4;
+}
+
+.items{
+    border-radius: 10px;
+    background-color: #757575;
+    padding:10px;
+    margin:2px;
+}
+
+ul{
+    color:gainsboro;
+}
+
+.items:hover{
+    background-color: honeydew;
+    color:black;
+}
+
+.items::first-letter{
+    color:hotpink;
+    font-size: larger;
+}
+
+a{
+    text-align:center;
+    padding:0 20px;
+    color:blue;
+    text-decoration: none;
+}
+
+a:hover{
+    color:green;
+}
+
+a:active{
+    color:lightblue;
+}
+
+a:visited{
+    color:purple;
+}
+
+li:last-child{
+    font-family:monospace;
+}
+
+li:nth-child(even){
+    background:salmon;
+}

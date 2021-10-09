@@ -1,0 +1,72 @@
+*{
+    font-family:sans-serif ;
+}
+body{
+    background:slateblue;
+}
+
+form{
+    margin:0 10%;
+    background:thistle;
+    min-height: 100vh;
+    border-radius:20px;
+}
+
+h1{
+    padding:2% 10%;
+}
+
+.elements{
+    margin:0 10%;
+    padding:6px;
+    font-size: 18px;
+}
+
+.elements input{
+    margin: 0 10%;
+}
+
+.textfield{
+    width:35%;
+    height:20%;
+}
+
+.submit{
+    margin:0 10%;
+    text-align:center;
+}
+
+.buttons{
+    width:30%;
+    height:15%;
+    font-size:30px;
+    border-radius:20px;
+    border:2px solid none;
+    background-color: turquoise;
+    color:brown;
+}
+
+.elements > label{
+    font-style:italic;
+}
+
+#pob + .elements{
+    font-weight: bold;
+}
+
+.submit ~ .textfield{
+    font-variant:small-caps;
+}
+
+.elements{
+    border:2px solid transparent;
+}
+
+.elements:active{
+    border:2px solid lightblue;
+}
+
+.textfield:valid{
+    border:2px solid green;
+
+}
