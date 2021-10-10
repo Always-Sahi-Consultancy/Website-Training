@@ -1,0 +1,39 @@
+form {
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align:left;
+    background-color:violet;
+    border-radius:10px;
+    min-height: 100vh;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color:blueviolet;
+  }
+
+
+  #pop{
+
+    font-weight:bolder;
+
+
+  }
+  *{
+
+      margin:0 10px 5px 30px;
+
+  }
+
+
+  .buttons{
+    border-radius:12px;
+    width:20vw;
+    height:6vh;
+    background-color:cyan;
+    shape-margin: 10px;
+    text-align: center;
+    color: rgb(95, 15, 95);
+    font-size: large;
+    
+}
