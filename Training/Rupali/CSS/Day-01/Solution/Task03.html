@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style3.css" rel="stylesheet">
+    <title>Form - Details</title>
+</head>
+<body>
+    <form method="POST" target="Submitted.html" class="detils">
+        <h1>Details</h1>
+        <div class="elements textfield">
+            <label for="name">Name</label>
+            <input name="name" placeholder="Full Name" required>
+        </div>
+        <div class="elements textfield">
+            <label for="name">Age</label>
+            <input name="age" placeholder="Age" required>
+        </div>
+        <div class="elements textfield">
+            <label for="dob">DOB</label>
+            <input name="dob" placeholder="Full Name" type="date" required>
+        </div>
+        <div class="elements textfield" id="pob">
+            <label for="pob">Place of Birth</label>
+            <input name="pob" placeholder="Place" required>
+        </div>
+        <div  class="elements textfield" id="city">
+            <label for="city">City</label>
+            <input name="city" placeholder="City" required>
+        </div>
+        <div class="elements textfield">
+            <label for="Pincode">Pincode</label>
+            <input name="pincode" placeholder="Pincode" maxlength="6" minlength="6" type="number" min="000000" max="999999" required>
+        </div>
+        <div class="elements">
+            <label for="toc">I accept the T&C.</label>
+            <input name="toc" type="checkbox" checked>
+        </div>
+        <div class="submit">
+            <input type="submit" value="submit" class="buttons">
+            <input type="reset" value="reset" class="buttons">
+        </div>
+    </form>
+</body>
+</html>

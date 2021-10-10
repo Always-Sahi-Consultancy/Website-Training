@@ -1,0 +1,24 @@
+*{
+    margin-left:10%;
+    margin-right:10%;
+}
+
+h1, h2, p{
+    font-family:monospace;
+}
+
+p {
+    color:brown;
+}
+
+#paragraph2{
+    color:green;
+}
+
+.paragraphs{
+    text-align:center;
+}
+
+body{
+    background-color:darkgrey;
+}
