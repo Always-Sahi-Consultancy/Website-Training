@@ -1,0 +1,22 @@
+table{
+    border:1px solid black;
+}
+
+th,td {
+    /* border:2px dotted green; */
+    padding: 10px 0px;
+    border-bottom:2px solid blue;
+}
+
+
+tr{
+    border:3px dotted blue;
+}
+
+tr:nth-child(even){
+    background:brown;
+}
+
+tr:hover{
+    background:chocolate;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Forms</title>
+</head>
+<body>
+    <h1>AS</h1>
+    <form action="random.html" method="POST">
+        <div>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Name" required>
+        </div>
+        <div>
+        <label for="dob">DOB</label>
+        <input type="date" name="dob" required>
+        </div>
+        <div>
+            <lable for="qualification">Quanlifiation</lable>
+            <select name="qualification" required>
+                <option value="ssc">SSC</option>
+                <option value="hsc">HSC</option>
+                <option vlaue="graduate">Grduate</option>
+                <option value="pg">PG</option>
+                <option value="phd">PhD </option>
+            </select>
+        </div>
+        <div>
+            <label for="gender">Gender</label>
+            <input type="radio" value="male" name="gender" required>Male
+            <input type="radio" value="female" name="gender" required>Female
+            <input type="radio" value="other" name="gender" required>Others
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" name="email">
+        </div>
+        <div>
+            <label for="password">Password</label>
+            <input type="password" name="password">
+        </div>
+        <div>
+            <label for="phone">Phone</label>
+            <input type="tel" name="phone" maxlength="10">
+        </div>
+        <div>
+            <label for="number">Number</label>
+            <input type="number" name="number">
+        <div>
+            <input type="checkbox" name="agree" checked>
+            <p>I agree to the T&C.</p>
+        </div>
+        <div>
+            <input type="submit" value="Signup">
+            <input type="reset" value="Reset">
+        </div>
+    </form>
+</body>
+</html>
