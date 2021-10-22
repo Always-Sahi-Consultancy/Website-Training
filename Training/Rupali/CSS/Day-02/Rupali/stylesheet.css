@@ -1,0 +1,40 @@
+ .contain{
+     display:inline-flex;
+     width: 1000px;
+     height: 400px;
+     border: 2px solid black ;
+     margin:auto;
+     padding: 60px;
+     text-transform:capitalize ;
+     text-align:center;
+ }
+
+ .cont-1 {
+    padding:10px;
+    height:400px;
+    margin-left: 10px;
+    width: 500px;
+    border-left: 2px solid black;
+    
+ }
+
+ .cont-2{
+    border:2px solid black; 
+    padding:0px;
+    margin:20px;
+    height:320px;
+    width:30%;
+ }
+
+ .class1{
+     text-align: center;
+     direction:rtl;
+
+ }
+
+ .class2{
+
+    text-align: left;
+
+ }
+
