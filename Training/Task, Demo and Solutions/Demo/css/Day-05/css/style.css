@@ -1,0 +1,123 @@
+.paras{
+    display: inline-flex;
+}
+.para1{
+    width:20%;
+    height:30px;
+    background:greenyellow;
+}
+
+#p1{
+    overflow: visible;
+}
+
+#p2{
+    overflow: hidden;
+    /* overflow-x: hidden; */
+    /* overflow-y: hidden; */
+}
+
+#p3{
+    overflow: scroll;
+}
+
+#p4{
+    overflow: auto;
+}
+
+/* Float */
+
+.floats{
+    float:right;
+}
+
+.container{
+    width: 20%;
+    background-color: aquamarine;
+    height: 200px;
+    float: inherit;
+}
+
+/* Clear */
+
+.floated{
+    height: 100px;
+    width: 25%;
+    background-color: aquamarine;
+    float: left;
+}
+
+.para{
+    clear: none;
+}
+
+/* Position */
+
+.positions{
+    height: 1000px;
+}
+
+.statics{
+    position: static;
+}
+
+.relatives{
+    position: relative;
+    top: 100px;
+    left: 200px;
+    right:200px;
+    bottom: -200px;
+}
+
+.fixed{
+    position: fixed;
+    top:200px;
+}
+
+.absolutes{
+    position: absolute;
+    top: 600px;
+}
+
+.stickys{
+    position: -webkit-sticky;
+    position: sticky;
+    top:50px;
+    background-color: blue;
+}
+
+/* Specificity */
+
+/* #specificity{
+    color:gray;
+}
+*/
+.specificity{
+    color:blue;
+}
+/*
+.specificity{
+    color:aquamarine;
+} */
+
+div{
+    color:blueviolet;
+}
+/*
+div #specificity{
+    color: indigo;
+}
+
+div[id=specificity]{
+    color: yellow;
+} */
+
+*{
+    color: black;
+}
+
+/* !important */
+
+div{
+    color:lawngreen !important;
+}
