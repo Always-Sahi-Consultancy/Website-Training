@@ -1,0 +1,56 @@
+.title-heading{
+    text-shadow: 6px 10px 5px red;
+    text-align: center;
+    border: solid blue 2px;
+    box-shadow: 2px 7px 10px lightblue;
+}
+
+.pagination{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.item{
+    width: 30px;
+    height: 30px;
+}
+
+.pagination a:hover:not(.active){
+    background-color: gray;
+}
+
+.pagination a.active{
+    background-color: red;
+}
+
+.screen{
+    height: 90vh;
+}
+
+.obj{
+    height:60px;
+    width: 60px;
+    background: red;
+    position: relative;
+}
+
+#obj2{
+    background: blue;
+    position:relative;
+    top:-30px;
+}
+
+#obj1{
+    z-index:1;
+}
+
+
+.doc{
+    counter-reset: new;
+}
+
+h2::before{
+    counter-increment: new;
+    content: "Topic " counter(new)":";
+}
